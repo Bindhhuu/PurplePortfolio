@@ -1,0 +1,39 @@
+nav {
+    background-color: var(--secondary-color);
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  
+    .nav-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .logo {
+        color: var(--accent-color);
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+  
+      .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+  
+        li a {
+          color: var(--text-color);
+          text-decoration: none;
+          transition: color 0.3s ease;
+  
+          &:hover {
+            color: var(--accent-color);
+          }
+        }
+      }
+    }
+  }

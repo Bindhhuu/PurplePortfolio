@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #e7e5ed;      // Light purple background
+    --secondary-color: #a18cd1;    // Medium purple
+    --accent-color: #b2a0e0;       // Bright purple
+    --text-color: #4a4a4a;         // Dark text
+    --hover-color: #9575cd;        // Light purple for hover effects
+  }
+  
+  body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  .App {
+    min-height: 100vh;
+  }

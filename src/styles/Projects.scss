@@ -1,0 +1,80 @@
+.projects {
+    padding: 6rem 2rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 2.5rem;
+    }
+  
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));  // Increased from 300px
+        gap: 2.5rem;  // Increased gap
+  
+      .project-card {
+        background: var(--secondary-color);
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 1.5rem;
+  
+        img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 5px;
+        }
+  
+        h3 {
+            margin: 1.2rem 0;
+            color: var(--accent-color);
+            font-size: 1.8rem;
+        }
+  
+        p {
+            color: var(--text-color);
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+  
+        .technologies {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.8rem;
+          margin-top: 1.2rem;
+  
+          span {
+            background: var(--primary-color);
+            padding: 0.4rem 1rem;
+            border-radius: 15px;
+            font-size: 1rem;
+          }
+        }
+
+        .github-link {
+          display: inline-block;
+          margin-top: 1rem;
+          padding: 0.5rem 1.2rem;
+          background: #2ea44f;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: 500;
+          transition: all 0.3s ease;
+          width: 40%;
+          text-align: center;
+      
+          &:hover {
+            background: #2c974b;
+            color: #f0f0f0;
+          }
+      
+          i {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
