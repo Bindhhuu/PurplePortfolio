@@ -22,6 +22,9 @@ const Navbar = () => {
             <Link to="/skills">Skills</Link>
           </motion.li>
           <motion.li whileHover={{ scale: 1.1 }}>
+            <Link to="/experience">Experience</Link>
+          </motion.li>
+          <motion.li whileHover={{ scale: 1.1 }}>
             <Link to="/contact">Contact</Link>
           </motion.li>
         </ul>
